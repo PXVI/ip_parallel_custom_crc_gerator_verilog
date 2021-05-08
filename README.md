@@ -2,7 +2,7 @@
 ------------------------
 This here is the collection of CRC modules which are parallel in naturein the sense that the user can generate a full CRC in just one clock cycle, despite the lenght of the input. This is espicially useful in a system which has a stream of data is being recieved over which the CRC is supposed to be calculated. The **CRC Generator Script** which has been provided is a generic script which can generate a M-bit CRC calculator for an N-bit input with customizable polynomial. The design generated is already linted and is good to be synthesized. <br/>
 
-The generator script is **Perl** based and teh instructions on how to use it are pretty straight forward. Just try running the script and everything is self explanatory. <br/>
+The generator script is **Perl** based and the instructions on how to use it are pretty straight forward. Just try running the script and everything is self explanatory. <br/>
 
 The internal block diagram for the design is given below. This is the fundamental implementaion diagram. Additional signals and their use are all added for ease of use.
 
